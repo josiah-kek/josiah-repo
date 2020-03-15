@@ -1,0 +1,207 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+}
+
+h2 {
+    color: #203864;
+    margin-bottom: 10px;
+}
+
+/* logo styles */
+#logo {
+    height: 120px;
+    display: block;
+    margin: 0px auto;
+  }
+
+/* feature photo styles */
+.feature_photo_container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.feature_photo_caption {
+    font-weight: bold;
+    font-size: 250%;
+    background-color: hsla(285, 5%, 29%, 0.7);
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* featured articles styles */
+
+.wide-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leftshift {
+  margin-left: 0px;
+}
+
+.medium_photo {
+  height: 250px;
+}
+
+/* search form styles */
+
+#categories {
+    width: 150px;
+    font-family: inherit;
+    font-size: 70%;
+    padding: 5px 8px;
+}
+#search {
+    width: 200px;
+    height: 24px;
+    font-family: inherit;
+    font-size: 70%;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+
+.submit_button {
+    width: 80px;
+    height: 20px;
+    font-family: inherit;
+    font-size: 70%;
+    background-color: lightblue;
+    border-radius: 3px;
+    border-width: thin;
+}
+
+#search_error_text {
+  color: darkred;
+  font-weight: bold;
+  font-size: 110%
+}
+
+.search_scope_text {
+  border-style: none;
+  font-size: 70%;
+  border-radius: 5px;
+  background-color: #203864;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+/* table styles */
+.table {
+    overflow-x: scroll;
+  }
+
+  table {
+    width: 900px;
+  }
+
+  th, td {
+    padding: 6px 10px 10px 10px;
+  }
+
+  th {
+    font-size: 110%;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #d0d0d0;
+  }
+
+/* add form styles */
+#add_form {
+  margin-top: 20px;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+}
+
+#add_form div {
+  margin-bottom: 15px;
+}
+
+#add_form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#form_fieldset {
+  border: 2px ridge lightblue;
+}
+
+#legend_text {
+  font-size: 130%;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1f7aa1
+}
+
+#form_instructions {
+  font-size: 80%;
+  margin-top: -5px;
+}
+
+#form_instructions strong {
+  color: darkred;
+}
+
+.formbox {
+  border-radius: 3px;
+  padding: 3px;
+  font-family: inherit;
+  font-size: 70%;
+}
+
+.selectbox {
+  width: 178px;
+}
+
+.error_message {
+  border-style: none;
+  border-radius: 5px;
+  background-color: darkred;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+}
+
+.valid_message {
+  border-style: none;
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+}
+
+/* font styles */
+.darktext {
+  color: gray;
+  font-size: 70%;
+}
+
+.darklink {
+    color: gray;
+  }
+
+.bluelink {
+  color: #203864;
+  font-weight: bold;
+}
+
+.ctrtext {
+  text-align: center;
+}
+
+.narrowtext {
+  max-width: 380px;
+}
